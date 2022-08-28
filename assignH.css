@@ -1,0 +1,36 @@
+body{
+    margin-top: 15rem;
+}
+
+.container{
+    height: 5rem;
+    width: 36rem;
+    border-radius: 5px;
+    background-color:lavender;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    font-family: "Trirong", serif;
+    box-shadow:  0 10px 10px 1px rgb(186, 185, 185);
+}
+
+.btn{
+    height: 4rem;
+    width:16rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.btn:focus{
+    background-color: rgb(190, 127, 249);
+}
